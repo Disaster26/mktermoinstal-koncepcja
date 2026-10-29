@@ -270,11 +270,30 @@ strong{font-weight:600}
   .hero-tel{display:none}
   .hero-fakty{padding-top:12px;font-size:13.5px;gap:4px 14px;line-height:1.4}
   .hero-fakty svg{width:15px;height:15px}
-  .sek-glowa{grid-template-columns:minmax(0,1fr);margin-bottom:28px}
-  .uslugi{grid-template-columns:minmax(0,1fr);gap:40px}
+  .sekcja{padding:54px 0}
+  h2{font-size:clamp(26px,7vw,30px)}
+  .sek-glowa{grid-template-columns:minmax(0,1fr);margin-bottom:24px}
+  .sek-glowa p{font-size:15.5px}
+  .usl ul{display:none}
+  .usl-foto{margin-bottom:14px}
+  .usl h3{font-size:20px;margin-bottom:6px}
+  .usl p{margin:0;font-size:15.5px}
+  .pozostale h3{font-size:21px}
+  .pozostale-l div{padding:13px 0}
+  .pozostale-l dt{font-size:17px;margin:0}
+  .pozostale-l dd{font-size:14.5px;line-height:1.45}
+  .obiekty-foto,.proces-foto{display:none}
+  .typy{margin:18px 0}
+  .typy dd{font-size:15px}
+  .galeria a:nth-child(n+7){display:none}
+  .kroki li{padding:10px 0 10px 4px;font-size:15px}
+  .kroki b{font-size:16.5px}
+  .programy p{font-size:15px}
+  .mapa{aspect-ratio:16/10}
+  .uslugi{grid-template-columns:minmax(0,1fr);gap:32px}
   .uslugi .usl:last-child{grid-column:auto}
-  .uslugi .usl:last-child .usl-foto,.usl-foto{aspect-ratio:4/3}
-  .pozostale{margin-top:48px}
+  .uslugi .usl:last-child .usl-foto,.usl-foto{aspect-ratio:16/10}
+  .pozostale{margin-top:40px;gap:12px}
   .pozostale-l{grid-template-columns:minmax(0,1fr)}
   .obiekty-in,.proces-in,.faq-in,.kontakt-in{grid-template-columns:minmax(0,1fr)}
   .obiekty-foto{aspect-ratio:4/3}
