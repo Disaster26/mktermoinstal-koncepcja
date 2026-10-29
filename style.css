@@ -318,7 +318,7 @@ strong{font-weight:600}
   .form .btn{width:100%}
   .stopka{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
   .stopka-g{grid-template-columns:minmax(0,1fr)}
-  .siatka-r{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .siatka-r{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
   .cta-pas .btn{width:100%}
   .mob{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--linia);transform:translateY(110%);transition:transform .3s cubic-bezier(.2,.8,.2,1)}
   .mob.widac{transform:none}
